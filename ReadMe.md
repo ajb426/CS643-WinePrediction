@@ -87,7 +87,8 @@ This project uses a machine learning model to predict wine quality based on vari
 	```bash
 	spark-submit predict_model.py
 	```
-		The results will be saved in the output file you specified in OUTPUT_FILE_PATH
+The results will be saved in the output file you specified in OUTPUT_FILE_PATH
+
 3. To run the predictions script using the docker image:
 	```bash
 	docker pull ajb426/wine-quality-predictor:latest
