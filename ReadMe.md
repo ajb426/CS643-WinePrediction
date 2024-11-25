@@ -28,6 +28,7 @@ This project uses a machine learning model to predict wine quality based on vari
 
 - `train_model.py`: Script for training the Random Forest model.
 - `predict_model.py`: Script for generating predictions and calculating F1 score.
+- `TrainingDataset.csv`: Training dataset used for training the model.
 - `ValidationDataset.csv`: Validation dataset for predictions.
 - `WineQualityModel/`: Directory containing the trained model.
 - `Dockerfile`: Configuration to build a Docker image for running the prediction script.
