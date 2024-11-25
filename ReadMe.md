@@ -109,7 +109,7 @@ This project uses a machine learning model to predict wine quality based on vari
 	
 ## Summary
 Those are all the steps required to run my Spark cluster for the wine prediction model. Please reference this document provided by the professor for creating the Spark cluster if
-there are any questions pertaining to that. [Setup Cluster using EMR](Final Guide.pdf)
+there are any questions pertaining to that. [Setup Cluster using EMR](Final%20Guide.pdf)
 	
 	
 	
