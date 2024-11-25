@@ -68,11 +68,7 @@ This project uses a machine learning model to predict wine quality based on vari
 ### Train Model
 1. Train and ouput the model for prediction:
 	```bash
-	spark-submit \                                                                                                                                                                                                     --master yarn \                                 
-  --deploy-mode cluster \
-  --conf spark.yarn.appMasterEnv.TRAINING_DATA_PATH=hdfs:///hdfs/path/to/TrainingDataset.csv \
-  --conf spark.yarn.appMasterEnv.MODEL_OUTPUT_PATH=hdfs:///hdfs/path/to/WineQualityModel \
-  train_model.py ```
+	spark-submit --master yarn --deploy-mode cluster --conf spark.yarn.appMasterEnv.TRAINING_DATA_PATH=hdfs:///hdfs/path/to/TrainingDataset.csv  --conf spark.yarn.appMasterEnv.MODEL_OUTPUT_PATH=hdfs:///hdfs/path/to/WineQualityModel train_model.py ```
 	set the env variables to the relevant paths for your training and model paths.
 2. Get the model output from HDFS
 	```bash
