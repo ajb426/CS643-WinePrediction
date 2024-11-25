@@ -2,6 +2,10 @@
 
 This project uses a machine learning model to predict wine quality based on various attributes. The script is designed to be run within a Docker container or directly on a single Spark node.
 
+##Links
+1. Github: https://github.com/ajb426/CS643-WinePrediction
+2. Dockerhub: https://hub.docker.com/repository/docker/ajb426/wine-quality-predictor/tags
+
 ## Features
 
 - Train a Random Forest model on a wine dataset.
